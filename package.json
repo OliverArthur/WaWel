@@ -1,0 +1,31 @@
+{
+  "name": "wawel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "npm run watch:wawel & npm run watch:docs",
+    "watch:wawel": "npm run compile:wawel -- --verbose --watch",
+    "compile:wawel": "postcss src/wawel.css -o dist/wawel.min.css",
+    "format": "npm run format:css & npm run format:md",
+    "format:css": "prettier --single-quote --print-width 180 --write '*.css'",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "cssnano": "4.1.10",
+    "postcss": "7.0.18",
+    "postcss-cli": "6.1.3",
+    "postcss-import": "12.0.1",
+    "postcss-preset-env": "6.7.0",
+    "prettier": "1.18.2",
+    "vuepress": "1.1.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
