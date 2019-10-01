@@ -1,13 +1,13 @@
 :root {
-  /**
+  /***************
    * Root
-   */
+   **************/
 
   --root-size: 16px;
 
-  /**
+  /***************
    * Body
-   */
+   **************/
 
   --body-font-family: var(--font-family);
   --body-font-weight: var(--font-weight);
@@ -16,9 +16,9 @@
   --body-letter-spacing: var(--letter-spacing);
   --body-background: var(--background);
 
-  /**
+  /***************
    * Icon
-   */
+   **************/
 
   --icon-xxl-size: 6rem;
   --icon-xl-size: 5rem;
@@ -29,23 +29,23 @@
   --icon-xxs-size: 1rem;
   --icon-size: var(--icon-m-size);
 
-  /**
+  /***************
    * Print
-   */
+   **************/
 
   --print-page-size: A4;
   --print-page-margin: 1.5cm 2cm;
 
-  /**
+  /***************
    * Focus Outline
-   */
+   **************/
 
   --focus-outline: 0.125rem solid var(--info);
   --focus-outline-offset: 0.125rem;
 
-  /**
+  /***************
    * Container
-   */
+   **************/
 
   --container-gutter: 1rem;
   --container-xxl: 80rem;
@@ -56,9 +56,9 @@
   --container-xs: 100%;
   --container-xxs: 100%;
 
-  /**
+  /***************
    * Group
-   */
+   **************/
 
   --group-xxl-space: 0.875rem;
   --group-xl-space: 0.75rem;
@@ -68,36 +68,34 @@
   --group-xs-space: 0.25rem;
   --group-xxs-space: 0.125rem;
 
-  /**
+  /***************
    * Color
-   */
+   **************/
 
   --color: var(--dark);
 
-  /**
+  /*************
    * Background
-   */
-
+   **************/
   --background: var(--white);
 
-  /**
+  /****************
    * Border
-   */
-
+   ***************/
   --border-width: 1px;
   --border-style: solid;
   --border-color: var(--light);
   --border: var(--border-width) var(--border-style) var(--border-color);
 
-  /**
+  /****************
    * Border Radius
-   */
+   ***************/
 
   --border-radius: 0.25em;
 
-  /**
+  /****************
    * Box Shadow
-   */
+   ***************/
 
   --box-shadow: none;
   --box-shadow-color: color-mod(var(--dark) alpha(10%));
@@ -105,9 +103,9 @@
   --focus-box-shadow: none;
   --active-box-shadow: none;
 
-  /**
+  /*******************
    * Box Shadow Sizes
-   */
+   ******************/
 
   --box-shadow-xxl: 0 1px 10px 1px var(--box-shadow-color);
   --box-shadow-xl: 0 1px 8px 1px var(--box-shadow-color);
@@ -117,26 +115,26 @@
   --box-shadow-xs: 0 1px 1px 1px var(--box-shadow-color);
   --box-shadow-xxs: 0 0px 1px var(--box-shadow-color);
 
-  /**
+  /****************
    * Z-Index
-   */
+   ***************/
 
   --z-index-high: 999;
   --z-index-medium: 99;
   --z-index-low: 9;
 
-  /**
+  /****************
    * Speed
-   */
+   ***************/
 
   --speed-fast: 200ms;
   --speed-medium: 300ms;
   --speed-slow: 500ms;
   --speed: var(--speed-fast);
 
-  /**
+  /****************
    * Height
-   */
+   ***************/
 
   --height-xxl: 3.25rem;
   --height-xl: 3rem;
@@ -146,9 +144,9 @@
   --height-xs: 2rem;
   --height-xxs: 1.75rem;
 
-  /**
+  /****************
    * Space
-   */
+   ***************/
 
   --space-xxl: 4rem;
   --space-xl: 3rem;
@@ -158,9 +156,9 @@
   --space-xs: 0.75rem;
   --space-xxs: 0.5rem;
 
-  /**
+  /****************
    * Max Width
-   */
+   ***************/
 
   --max-width-xxl: 70rem;
   --max-width-xl: 60rem;
@@ -170,9 +168,9 @@
   --max-width-xs: 20rem;
   --max-width-xxs: 10rem;
 
-  /**
+  /****************
    * Font
-   */
+   ***************/
 
   --font-family-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   --font-family-sans-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -180,9 +178,9 @@
   --font-family-monospace: Monaco, Menlo, Consolas, 'Courier New', monospace;
   --font-family: var(--font-family-system);
 
-  /**
+  /****************
    * Font Weights
-   */
+   ***************/
 
   --font-weight-thin: 100;
   --font-weight-extra-light: 200;
@@ -195,9 +193,9 @@
   --font-weight-black: 900;
   --font-weight: normal;
 
-  /**
+  /****************
    * Font Sizes
-   */
+   ***************/
 
   --font-size-xxl: 1.5rem;
   --font-size-xl: 1.25rem;
@@ -208,9 +206,9 @@
   --font-size-xxs: 0.625rem;
   --font-size: var(--font-size-m);
 
-  /**
+  /****************
    * Line height
-   */
+   ***************/
 
   --line-height-xxl: 2;
   --line-height-xl: 1.75;
@@ -221,9 +219,9 @@
   --line-height-xxs: 1;
   --line-height: var(--line-height-s);
 
-  /**
+  /******************
    * Letter Spacing
-   */
+   ******************/
 
   --letter-spacing-xxl: 0.1em;
   --letter-spacing-xl: 0.0825em;
